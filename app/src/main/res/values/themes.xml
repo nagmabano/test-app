@@ -14,4 +14,12 @@
         <!-- Customize your theme here. -->
         <item name="android:windowSplashScreenBackground">@color/purple_500</item>
     </style>
+    <style name="Theme.TestApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TestApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TestApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
